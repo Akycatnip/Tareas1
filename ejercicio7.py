@@ -1,5 +1,9 @@
 # Crea los siguientes programas usando bucles for o while.
-#
+
+######################################################################################################
+#https://www.mclibre.org/consultar/python/lecciones/python-biblioteca-random.html
+######################################################################################################
+
 # "adivinalo.py" Genera un número aleatorio del 1 al 100. Pide al usuario que
 # lo adivine, indicando si es mayor o menor.
 # En caso de adivinarlo se sale con "EUREKA. Lo has adivinado."
@@ -62,13 +66,42 @@
 # de lo que pagará después de los 20 meses.
 
 
-# "cronometro.py" Muestra un cronómetro, indicando las horas, minutos y segundos. Usa del módulo time time.sleep(1) para que el programa espere un segundo entre cada actualización.
-# "primos.py" Muestra los N primeros números primos. Se pide por teclado la cantidad de números primos que queremos mostrar.
-# "caracter_en_cadena.py" Pide una cadena y un carácter por teclado y muestra cuantas veces aparece el carácter en la cadena.
-# "reemplazar_caracter.py" Pide una cadena y dos caracteres por teclado (valida que sea un carácter), sustituye la aparición del primer carácter en la cadena por el segundo carácter.
+# "cronometro.py" Muestra un cronómetro, indicando las horas, minutos y segundos.
+# Usa del módulo time time.sleep(1) para que el programa espere un segundo entre cada actualización.
+
+
+# "primos.py" Muestra los N primeros números primos.
+# Se pide por teclado la cantidad de números primos que queremos mostrar.
+
+
+# "caracter_en_cadena.py" Pide una cadena y un carácter por teclado y
+# muestra cuantas veces aparece el carácter en la cadena.
+
+
+# "reemplazar_caracter.py" Pide una cadena y dos caracteres por teclado
+# (valida que sea un carácter), sustituye la aparición del primer
+# carácter en la cadena por el segundo carácter.
+
+
 # "contar_palabras.py" Pide una cadena por teclado y cuenta cuántas palabras tiene.
-# "mayusculas_minusculas.py" Realizar un programa que lea una cadena por teclado y convierta las mayúsculas a minúsculas y viceversa.
-# "subcadena.py" Realizar un programa que compruebe si una cadena contiene una subcadena. Las dos cadenas se introducen por teclado.
-# "palindromo.py" Introducir una cadena de caracteres e indicar si es un palíndromo. Una palabra palíndroma es aquella que se lee igual adelante que atrás.
+
+
+
+# "mayusculas_minusculas.py" Realizar un programa que lea una
+# cadena por teclado y convierta las mayúsculas a minúsculas y viceversa.
+
+
+# "subcadena.py" Realizar un programa que compruebe si una cadena contiene
+# una subcadena. Las dos cadenas se introducen por teclado.
+
+
+# "palindromo.py" Introducir una cadena de caracteres e indicar si es un
+# palíndromo. Una palabra palíndroma es aquella que se lee igual adelante que atrás.
+
+
 # "numeros_primos.py" Lee un número por teclado e indica si es un número primo o no.
-# "reemplazar_caracter.py" Pide una cadena y dos caracteres por teclado (valida que sea un carácter), sustituye la aparición del primer carácter en la cadena por el segundo carácter.
+
+
+# "reemplazar_caracter.py" Pide una cadena y dos caracteres por teclado
+# (valida que sea un carácter), sustituye la aparición del primer
+# carácter en la cadena por el segundo carácter.
