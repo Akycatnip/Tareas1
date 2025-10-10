@@ -93,12 +93,40 @@ if 1<=i<=12:
     print(f"EL mes de {meses[i-1]} tiene {dias[i-1]} días")
 
 
-
-
-# 11. "conversion.py"Lee desde el teclado un número y pásalo a binario, decimal y hexadecimal.
 # 12. "mayor_de_tres.py"Lee desde el teclado tres números y determina cuál es el mayor.
-# 13. "rango.py"Lee desde el teclado un número y determina si está dentro o fuera de un rango específico (por ejemplo, 1-100).
+# mayor_de_tres.py
+
+# Leer los tres números
+numero1 = float(input("Introduce el primer número: "))
+numero2 = float(input("Introduce el segundo número: "))
+numero3 = float(input("Introduce el tercer número: "))
+
+# Determinar cuál es el mayor
+mayor = max(numero1, numero2, numero3)
+
+# Mostrar el resultado
+print(f"El mayor de los tres números es: {mayor}")
+
+
+# 13. "rango.py"Lee desde el teclado un número
+# y determina si está dentro o fuera de un rango específico (por ejemplo, 1-100).
+
+numero = (input("Dame un número"))
+
+
+if numero in range(1, 100):
+    print(f"El número {numero} está dentro del rango.")
+else:
+    print(f"El número {numero} NO está dentro del rango.")
+
 # 14. "vocal_consonante.py"Lee desde el teclado una letra y determina si es vocal o consonante.
+letra = (input("Dame una letra"))
+vocales = ["a", "e", "i", "o", "u"]
+if letra in vocales:
+    print("Es una vocal")
+else:
+    print("Es una consonante.")
+
 # 15. "dia_semana.py"Lee desde el teclado un número del 1 al 7 e indica el día de la semana correspondiente.
 # 16. "estacion_ano.py"Lee desde el teclado un mes (1-12) e indica la estación del año correspondiente.
 # 17. "mayor_menor.py"Lee desde el teclado dos números y determina cuál es mayor, menor o si son iguales.

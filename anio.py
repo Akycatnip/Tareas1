@@ -7,3 +7,8 @@ elif anio == 2025:
 else:
     print(f"El año {anio} es pasado.")
 
+# 11. "conversion.py"Lee desde el teclado un número y pásalo a binario, decimal y hexadecimal.
+
+
+numero = int (input("Dame un numero\n"))
+print(f"El número {numero} en binario es: {bin(numero)}, en decimal es: {(numero)} y en hexadecimal es: {hex(numero)}")
