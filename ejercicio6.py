@@ -20,4 +20,14 @@ while letra not in vocales:
 print("Es una vocal.")
 
 # Solicita por teclado una frase. La mostrará en mayúsculas cuando la palabra contenga números
-# Solicta un entero. Muestra su tabla de multiplicar.
+
+frase = input("Dime una frase")
+if any(caracter.isdigit() for caracter in frase):
+    print(frase.upper())
+
+# Solicita un entero. Muestra su tabla de multiplicar.
+
+numero = int(input("Introduce un numero: "))
+for i in range(1,11):
+    print(numero*i)
+
