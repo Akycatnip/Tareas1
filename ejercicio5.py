@@ -127,10 +127,4 @@ if letra in vocales:
 else:
     print("Es una consonante.")
 
-# 15. "dia_semana.py"Lee desde el teclado un número del 1 al 7 e indica el día de la semana correspondiente.
-# 16. "estacion_ano.py"Lee desde el teclado un mes (1-12) e indica la estación del año correspondiente.
-# 17. "mayor_menor.py"Lee desde el teclado dos números y determina cuál es mayor, menor o si son iguales.
-# 18. "edad_categoria.py"Lee desde el teclado la edad de una persona y determina su categoría (niño, adolescente, adulto, adulto mayor).
-# 19. "calificacion_detallada.py"Lee desde el teclado una calificación numérica (0-100) y determina la calificación en letra (A-F) junto con un mensaje motivacional y la cantidad de puntos necesarios para alcanzar la siguiente calificación.
-
 
