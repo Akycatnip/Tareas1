@@ -7,6 +7,4 @@ elif numero%3 == 0 and numero%5 != 0:
 elif numero%3 != 0 and numero%5 == 0:
     print("El número es múltiplo de 5")
 else:
-    print("El nú"
-          ""
-          "mero no es múltiplo de 3 ni de 5")
+    print("El número no es múltiplo de 3 ni de 5")
